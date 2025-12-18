@@ -1,0 +1,65 @@
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    nav {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    /* HEADER */
+    header .container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .profile {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile img {
+        width: 96px;
+        height: 96px;
+    }
+
+    .profile-text-description {
+        max-width: 100%;
+    }
+
+    /* INFO LIST */
+    .inf {
+        width: 100%;
+    }
+
+    /* MAIN */
+    main {
+        padding: 40px 16px;
+    }
+
+    /* GALERIA */
+    .galeria-grid {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 12px;
+    }
+
+    .galeria-item img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 4 / 3;
+    }
+
+    /* FOOTER */
+    footer {
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+}
