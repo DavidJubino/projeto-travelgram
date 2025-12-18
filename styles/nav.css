@@ -11,8 +11,12 @@ nav .logo-name {
     font-size: 1.5rem;
 }
 
+.logo-name {
+    color: var(--background-color);
+}
+
 .surface-color {
-    background: var(--surface-color);
+    background: var(--brand-color-secundary);
 }
 
 nav ul {

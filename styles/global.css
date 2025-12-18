@@ -7,6 +7,8 @@
 :root {
     /* Adicionando Variaveis - CORES */
     --brand-color: #ef5f4c;
+    --brand-color-secundary: #ff5943;
+    --brand-color-hover: #8a1000;
     --background-color: #f9f9f9;
     --surface-color: #efefef;
     --sheleton-color: #d9d9d9;
@@ -42,8 +44,13 @@ p, span {
     font: var(--text-inter-md);
 }
 
+.link-click {
+    color: var(--background-color);
+    font: var(--text-inter-md);
+}
+
 .link-click:hover {
-    color: var(--brand-color);
+    color: var(--brand-color-hover);
     text-decoration: underline;
 }
 
