@@ -51,4 +51,10 @@ header .container {
     width: 28px;
     height: 28px;
     color: var(--brand-color);
+    justify-content: center;
+}
+
+.icon-img {
+    width: 24px;
+    height: 24px;
 }
