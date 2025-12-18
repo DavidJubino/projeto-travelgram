@@ -2,12 +2,13 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-block: 14px;
+    padding-block: 12px;
 }
 
 nav .logo-name {
-    font: var(--text--inter-lg);
+    font: var(--text-inter-lg);
     list-style: none;
+    font-size: 1.5rem;
 }
 
 .surface-color {
@@ -19,7 +20,7 @@ nav ul {
     display: flex;
     align-items: center;
     gap: 20px;
-    padding: 6px 0;
+    padding: 0;
 }
 
 nav ul li:last-child img {

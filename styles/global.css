@@ -8,7 +8,7 @@
     /* Adicionando Variaveis - CORES */
     --brand-color: #ef5f4c;
     --background-color: #f9f9f9;
-    --surface-color: #f5f5f5;
+    --surface-color: #efefef;
     --sheleton-color: #d9d9d9;
     --shape-transparency: #ffffff8f;
     --text-color-primary: #313131;
@@ -17,9 +17,9 @@
     /* Adicionando Variaveis - FONTES */
     --font-family-primary: 'Inter', sans-serif;
     --text-inter: 16px/150% var(--font-family-primary);
-    --text--inter-lg: bold 32px/125% var(--font-family-primary);
-    --text--inter-md: 14px/150% var(--font-family-primary);
-    --text--inter-sm: 12px/150% var(--font-family-primary);
+    --text-inter-lg: bold 32px/125% var(--font-family-primary);
+    --text-inter-md: 14px/150% var(--font-family-primary);
+    --text-inter-sm: 12px/150% var(--font-family-primary);
     --font-family-secondary: 'Poppins', sans-serif;
     --text-poppins: 16px/150% var(--font-family-secondary);
     --text-poppins-lg: bold 32px/125% var(--font-family-secondary);
@@ -36,6 +36,10 @@ body {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+p, span {
+    font: var(--text-inter-md);
 }
 
 .link-click:hover {

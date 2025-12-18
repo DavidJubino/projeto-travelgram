@@ -1,0 +1,54 @@
+header {
+    padding-block: 52px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    gap: 32px;
+}
+
+.profile img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-text-description {
+    max-width: 450px;
+}
+
+.profile-text-description h1 {
+    font: var(--text-inter-lg);
+    color: var(--text-color-primary);
+}
+
+.profile-text-description p {
+    margin-top: 8px;
+}
+
+.inf {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 290px;
+}
+
+.inf li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.icon {
+    width: 28px;
+    height: 28px;
+    color: var(--brand-color);
+}
