@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 14px;
+}
+
+nav .logo-name {
+    font: var(--text--inter-lg);
+    list-style: none;
+}
+
+.surface-color {
+    background: var(--surface-color);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 6px 0;
+}
+
+nav ul li:last-child img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+nav ul li:first-child img {
+    width: 24px;
+    height: 24px;
+}
